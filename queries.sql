@@ -64,3 +64,5 @@ select "fCount" from "tGoods" where "fModel" = '0605000000Js';
 
 select "fNum" from "tDoc" order by "fDate"; номера заказов в порядке по дате
 select "fNum", "fDate" from "tDoc" order by "fDate"; с выводом даты
+
+select "fCount" from "tGoods" where "fModel" = '0605000000Fd' AND "fDoc" = '0607000000Ff';
