@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Firebird\Firebird_2_5\bin\isql.exe" -u SYSDBA -p masterkey "C:\bp7\BP.FDB"
