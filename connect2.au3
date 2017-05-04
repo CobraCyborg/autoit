@@ -40,7 +40,8 @@
 $dsn = "DSN=FireBird"
 $adoCon = ObjCreate ("ADODB.Connection")
 $adoCon.Open ($DSN)
-$s_Qry = 'select "fName" from "tModel" where "fGroup" = ''0602000000Ff'';'
+$sGroup = "'0602000000Ff'"
+$s_Qry = 'select "fName" from "tModel" where "fGroup" = ' & $sGroup &';'
 ODBCquery($s_Qry)
 $adoCon.Close
 
